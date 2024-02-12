@@ -33,60 +33,102 @@
     </div>
     <br>
     <p> While the output screen layout is reduced the screen automatically rearranges it to the screen size. Thats why the letter and juices are arranged in row and column wise once screen size is reduces it will automatically be in top to bottom form. </p>
+    <h3>images without thumnails</h3>
     <div class="container">
-      <img src="kiwi fruit juice.jpg" class="img-thumbnail" alt="Kiwi Fruit Juice" width="25%">
-      <img src="apple juice.jpg" class="img-thumbnail" alt="Apple Juice" width="25%">
-      <img src="pineapple juice.jpg" class="img-thumbnail" alt="Pineapple" width="25%">
+      <img src="kiwi fruit juice.jpg"  alt="Kiwi Fruit Juice" width="200px" height="200px"> 
+      <img src="apple juice.jpg"  alt="Apple Juice" width="200px" height="200px">
+      <img src="pineapple juice.jpg"  alt="Pineapple" width="200px" height="200px">
      </div>
-     <table class="table table-striped table-hover">
-      <caption> Letters,star names and fish names with different styles</caption>
-      <thead>
-          <tr class="table-dark">
-              <th>Letter</th>
+     <h3> image with thumbnails</h3>
+    <div class="container">
+      <img src="kiwi fruit juice.jpg" class="img-thumbnail" alt="Kiwi Fruit Juice" width="200px" height="200px"> 
+      <img src="apple juice.jpg" class="img-thumbnail" alt="Apple Juice" width="200px" height="300px">
+      <img src="pineapple juice.jpg" class="img-thumbnail" alt="Pineapple" width="200px" height="200px">
+     </div>
+     <table class="table table-bordered border-primary caption-top thead-dark table-striped table-hover table-sm table-dark table-padding">
+      <caption> Letters,star names and fish names with different styles </caption>
+      <thead class="thead-dark">
+          <tr>
+             <th>Letter</th>
               <th>Drink</th>
               <th>Star Name</th>
               <th>Fish</th>
           </tr>
       </thead>
-      <tbody>
-        <tr>
-              <td class="table-default">K</td>
+          <tr class="table-primary">
+              <td>K</td>
               <td >Kiwi Fruit Juice</td>
               <td >Kappa Orionis</td>
               <td>Koi Carp</td>
-          </tr>
-          <tr>
-              <td class="table-primary">A</td>
+              </tr>
+          <tr class="table-danger">
+               <td>A</td>
               <td>Apple Juice</td>
               <td>Alpha Centauri</td>
               <td>Anchovy</td>
-          </tr>
-          <tr>
-              <td class="table-secondary">P</td>
+              </tr>
+          <tr class="table-secondary">
+            <td>P</td>
               <td>Pineapple Juice</td>
               <td>Polaris</td>
               <td>Piranha</td>
-          </tr>
-          <tr>
-              <td class="table-dark">P</td>
+              </tr>
+          <tr  class="table-success">
+            <td>P</td>
               <td>Pumpkin Juice</td>
               <td>Procyon</td>
               <td>Perch</td>
-          </tr>
-          <tr>
-              <td class="table-warning">A</td>
+              </tr>
+          <tr  class="table-warning">
+            <td>A</td>
               <td>Avocoda Juice</td>
               <td >Altair</td>
               <td>Angelfish</td>
-          </tr>
-          <tr>
-              <td class="light">C</td>
+             </tr>
+          <tr class="table-light">
+            <td>C</td>
               <td>Carrot Juices</td>
               <td>Castor</td>
               <td>Catfish</td>
-          </tr>
-      </tbody>   
-  </table>
+              </tr>
+      </table>
 
+      <nav class="navbar navbar-light navbar-brand bg-info">
+        <a class="navbar-brand" href="">Navbar Bootstarp </a>
+      </nav>
+      <h3>BUTTON</h3>
+      <div class="container">
+        <button type="button" class="btn btn-secondary">K</button>
+        <button type="button" class="btn btn-secondary">A</button>
+        <button type="button" class="btn btn-secondary">P</button>
+        <button type="button" class="btn btn-secondary">P</button>
+        <button type="button" class="btn btn-secondary">A</button>
+        <button type="button" class="btn btn-secondary">C</button>
+      </div>
+      <h3>BUTTON GROUP</h3>
+      <div class="btn-toolbar">
+        <div class="btn-group" roles="Success" aria-label="Success Group">
+          <button type="button" class="btn btn-success">K</button>
+          <button type="button" class="btn btn-success">A</button>
+          <button type="button" class="btn btn-success">P</button>
+        </div>
+        <div class="btn-group" roles="Warning" aria-label="Warning Group">
+          <button type="button" class="btn btn-warning">P</button>
+          <button type="button" class="btn btn-warning">A</button>
+        </div>
+        <div class="btn-group" roles="Danger" aria-label="Danger Group">
+          <button type="button" class="btn btn-danger">C</button>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">dropdown
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" style="background-color: yellow; font-family: sans-serif;">
+          <li><a class="dropdown-item" style="color:orange;" href="basic.html">Basic Page</a></li>
+          <li><a class="dropdown-item" style="color:orange;" href="advanced.html">Advanced Page</a></li> 
+        </ul>
+      </div>
+  
+  
 </body>
 </html>
